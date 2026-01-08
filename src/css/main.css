@@ -118,19 +118,6 @@ button {
     font-size: 1.25rem;
 }
 
-footer {
-    width: 100%;
-    background-color: var(--dark-green);
-    display: flex;
-}
-
-footer a {
-    margin: auto;
-    padding: .5rem 0;
-    text-decoration: none;
-    color: white;
-}
-
 /* Hover States */
 
 .area, button, footer a {

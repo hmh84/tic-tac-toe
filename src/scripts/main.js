@@ -138,6 +138,6 @@ reset.addEventListener('click', () => {
 const speaker = document.querySelector('#speaker');
 
 function call_speaker(sound) {
-    speaker.src = 'dist/sounds/' + sound;
+    speaker.src = './sounds/' + sound;
     speaker.play();
 }

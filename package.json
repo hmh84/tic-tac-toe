@@ -1,24 +1,19 @@
 {
-  "name": "idmt380",
+  "name": "tic-tac-toe",
   "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx gulp watch",
+    "build": "npx gulp build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mgabriele1/idmt380.git"
-  },
-  "author": "",
+  "author": "Hunter Hampton",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mgabriele1/idmt380/issues"
-  },
-  "homepage": "https://github.com/mgabriele1/idmt380#readme",
+  "description": "",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
     "gulp-clean-css": "^4.3.0",
-    "gulp-minify": "^3.1.0"
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^9.2.0",
+    "gulp-terser": "^2.1.0"
   }
 }
